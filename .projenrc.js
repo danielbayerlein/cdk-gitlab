@@ -28,6 +28,7 @@ const project = new AwsCdkConstructLibrary({
     '@aws-cdk/aws-eks',
     '@aws-cdk/aws-iam',
   ],
+  minNodeVersion: '12.20.0',
   python: {
     distName: 'cdk-gitlab',
     module: 'cdk_gitlab',
