@@ -23,6 +23,7 @@
     "eslint": "npx projen eslint",
     "compat": "npx projen compat",
     "docgen": "npx projen docgen",
+    "gitpod:prebuild": "npx projen gitpod:prebuild",
     "projen": "npx projen",
     "start": "npx projen start"
   },
@@ -34,7 +35,7 @@
   "devDependencies": {
     "@aws-cdk/assert": "^1.82.0",
     "@types/jest": "^26.0.24",
-    "@types/node": "^12.20.0",
+    "@types/node": "^10.17.0",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
     "eslint": "^7.32.0",
@@ -73,9 +74,6 @@
   "keywords": [
     "cdk"
   ],
-  "engines": {
-    "node": ">= 12.20.0"
-  },
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "version": "0.0.0",
