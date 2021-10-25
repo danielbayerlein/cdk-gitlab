@@ -18,6 +18,7 @@ const project = new AwsCdkConstructLibrary({
       secret: AUTOMATION_TOKEN,
     },
   },
+  minNodeVersion: '12.20.0',
   autoApproveOptions: {
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['pahud'],
